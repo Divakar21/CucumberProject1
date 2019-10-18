@@ -1,0 +1,148 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 91603424717,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on demo guru page",
+            "match": {
+              "location": "stepDefinition1.user_is_on_demo_guru_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "Verify that user can able to select the telecom project",
+        "description": "",
+        "id": "checks-the-customer-registration-functionality;verify-that-user-can-able-to-select-the-telecom-project",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17260734197,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks the telecom project",
+            "match": {
+              "location": "stepDefinition1.user_clicks_the_telecom_project()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3010377903,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User navigates to the telecom page.",
+            "match": {
+              "location": "stepDefinition1.user_navigates_to_the_telecom_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTest"
+          },
+          {
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 42790201311,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on demo guru page",
+            "match": {
+              "location": "stepDefinition1.user_is_on_demo_guru_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Verify that user can able to select the add customer in the telecom page",
+        "description": "",
+        "id": "checks-the-customer-registration-functionality;verify-that-user-can-able-to-select-the-add-customer-in-the-telecom-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11739654402,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User clicks the add customer",
+            "match": {
+              "location": "stepDefinition1.user_clicks_the_add_customer()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2649180138,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User navigates to the add customer page.",
+            "match": {
+              "location": "stepDefinition1.user_navigates_to_the_add_customer_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@FunctionalTest"
+          },
+          {
+            "name": "@RegressionTest"
+          }
+        ]
+      }
+    ],
+    "name": "Checks the customer registration functionality",
+    "description": "",
+    "id": "checks-the-customer-registration-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Demoguru.feature",
+    "tags": [
+      {
+        "name": "@FunctionalTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
